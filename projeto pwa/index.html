@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Tarefas Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2563eb" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>✅ Lista de Tarefas Pro</h1>
+      <p>Organize seu dia com estilo</p>
+    </header>
+    
+    <main>
+      <div class="task-form">
+        <input id="taskInput" type="text" placeholder="Digite uma nova tarefa" />
+        <button id="addTaskBtn">Adicionar</button>
+      </div>
+      <ul id="taskList"></ul>
+    </main>
+
+    <footer>
+      <button id="installBtn" style="display:none;">📲 Instalar App</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
